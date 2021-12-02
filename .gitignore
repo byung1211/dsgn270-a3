@@ -1,3 +1,10 @@
+# dsgn270
+.DS_Store
+.vscode:
+.env
+node_modules/
+
+
 # Logs
 logs
 *.log

@@ -1,0 +1,22 @@
+{
+  "name": "dsgn270-a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byung1211/dsgn270-a3.git"
+  },
+  "author": "Byung Uk An",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byung1211/dsgn270-a3/issues"
+  },
+  "homepage": "https://github.com/byung1211/dsgn270-a3#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
