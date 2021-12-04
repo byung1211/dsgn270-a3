@@ -7,13 +7,39 @@ Author: Byung Uk An
 
 3. SNS platform: Twitter
 
+# Information
+o	Relevant GH repo(s): https://github.com/byung1211/dsgn270-a3
+o	Live integration link: https://dsgn270-a3.herokuapp.com/
+o	Link to the social media test account: https://twitter.com/TheSun91512497
+o	Login information for the social media test account: longlive1211@gmail.com/!@#Byung1211
+
+ 
+#Comments
+ 
+#Attributions 
+
+free Burger images from https://pixels.com/
+
+Hosting : Heroku
+
+Test Twitter account
+longlive1211
+!@#byung----
 
 
---------------------------
+# Node Platform as Proxy
+1.	Custom API is called from your page to your Node endpoint.
+2.	Node requests data from the API on the backend (secure).
+3.	Node sends the response data back to the client.
+
+
+#--------------------------
+
 Using a secure platform of your choice, display this content on a webpage so that it solves your defined problem.
 Create user documentation describing to the client how to update their content on the Social Media platform so that it updates on their website.
 Create developer documentation outlining the steps taken to set up the API connection in case it needs to be repeated.
 
+#--------------------------
 
 Marking Rubric - 50 points
 Each of the following criteria will be worth 10 points.
@@ -75,30 +101,6 @@ o	Step-by-step instructions should use numbered lists.
 •	Code should follow proper conventions (indentation, naming, etc);
 •	README and integration should reflect a real-world solution to a market problem that a client would find valuable.
  
-Submitting Your Assignment
-In order to receive a grade, you must:
-1.	Deploy your integration using a hosting method of your choice (i.e. GH Pages, Heroku, Netlify, etc).
-2.	In addition to the requirements of the assignment, include the following in your project README.md:
-o	Course title and author name;
-o	Any comments that may help squeeze marks out of your instructor (maybe give him hints on where to look for the requirements above);
-o	Attributions for any code or assets that are not your own.
-3.	Zip your project (excluding node_modules and .env file) and submit them to Brightspace.
-4.	Include the following as a comment with your Brightspace submission:
-o	Relevant GH repo(s);
-o	Live integration link;
-o	Link to the social media test account;
-o	Login information for the social media test account.
  
-Appendix Example platforms:
-1. JAMstack with proxy
-•	No backend server
-•	API calls come from a static website
-•	Use a serverless function (i.e. on Netlify) to secure the API Key
-2. Nuxt build
-•	API is called at build time (secure)
-•	Content is displayed statically after it's generated at build time
-3. Node as proxy
-1.	Custom API is called from your page to your Node endpoint.
-2.	Node requests data from the API on the backend (secure).
-3.	Node sends the response data back to the client.
-![image](https://user-images.githubusercontent.com/90792644/144727533-1be949c3-1720-43ae-8033-198575509b44.png)
+ 
+
