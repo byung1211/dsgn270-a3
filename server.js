@@ -10,13 +10,20 @@ const app = express()
 // Set the root directory for static contents
 app.use(express.static('public'))
 
+// Set routes for the end points
+const api = require('./routes/api.js')
+app.use('/api', api)
+
 // Wrong url handling
 app.use((req, res) => {
 
-  // Set 404 error code to the response
   res.status(404)
-  // Redirect to the 404 error page
-  res.redirect('404error.html');
+
+  if (req.url.startsWith('/api')) {
+    res.send({Error: '404 Not Found'})
+  } else {
+    res.redirect('404error.html');
+  }
 });
 
 // Start server
