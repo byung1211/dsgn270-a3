@@ -33,25 +33,34 @@ function renderNotFoundMessage(){
 }
 
 function displayTweets(tweets){
- 
 
   let outputHtml = "";
   tweets.forEach(function(tweet, index) {
 
+    let title;
+    let link;
+
     const i = tweet.text.indexOf("https");
-    if(i){
-      const title = tweet.text.substring(0, i);
-      const link = tweet.text.substring(i);
-      const created_at = formatTime(tweet.created_at);
-      console.log(`tweet ${index}: ${title} - ${link}`);
-      outputHtml += ` <li class="py-1">
-                        <a href="${link}" target="_blank" class="text-blue-700 hover:text-red-700">${title}</a>
-                        <div class="pl-6 text-gray-500 font-serif"><span>${created_at}</span></div>
-                      </li>
-                    `;
+    if(i != -1){
+      // if tweet has a medis content
+      title = tweet.text.substring(0, i);
+      link = tweet.text.substring(i);
+
+    }else{
+      // if tweet has only status (text).
+      title = tweet.text;
+      link = `https://twitter.com/TheSun91512497/status/${tweet.id}`
     }
 
+    const created_at = formatTime(tweet.created_at);
 
+    console.log(`tweet ${index}: ${title} - ${link}`);
+
+    outputHtml += ` <li class="py-1">
+                    ${index+1}. <a href="${link}" target="_blank" class="text-blue-700 hover:text-red-700">${title}</a>
+                      <div class="pl-6 text-gray-500 font-serif"><span>${created_at}</span></div>
+                    </li>
+                  `;
 
    });
 
