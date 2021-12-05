@@ -8,7 +8,7 @@ Author: Byung Uk An
 
 ### Summary
 
-Using Social Networking Platform for marketing and advertising is an intigral part of mordern business strategies. From small business owners to enterprise companies, they use various SNS services, such as Youtube and Twitter. It is because to get closer to their customers and to give them trust and good feelings to their brands, services and products. However, small business owners are having difficulties to get their website connected to SNS services because they don't have any expertise about that. To solve this problem, this development would be the solution to small business owners. Absolutely, showing Twitter contents on small business website is a way that give customers new information and interact with them through SNS platform.
+Using Social Networking Platform for marketing and advertising is an integral part of modern business strategies. From small business owners to enterprise companies, they use various SNS services, such as Youtube and Twitter. It is because to get closer to their customers and to give them trust and good feelings to their brands, services and products. However, small business owners are having difficulties getting their website connected to SNS services because they don't have any expertise about that. To solve this problem, this development would be the solution for small business owners. Absolutely, showing Twitter content on the small business websites is a way that gives customers new information and interacts with them through the SNS platforms
 
 ### Business 
 	BurgerBurger restaurant
@@ -30,13 +30,13 @@ Using Social Networking Platform for marketing and advertising is an intigral pa
 
 1. Go to the restaurant website (https://dsgn270-a3.herokuapp.com)
 2. Check out the Twitter contents section
-3. Then, go to Twitter website and the restaurant account
+3. Then, go to the Twitter website and the restaurant account
 4. Log in with Twitter test account information above
-5. Press 'Tweet' button, and post new status and image.
+5. Press the 'Tweet' button, and post new status and image.
 6. See the new tweet posted in the timeline of the restaurant account
 7. Then, go to the restaurant website and check out the new content displayed
 
-* After you post new tweet, it would take less than a minute to see the content in the restaurant website.
+* After you post a new tweet, it would take less than a minute to see the content on the restaurant website.
 
 ---
 
@@ -44,7 +44,7 @@ Using Social Networking Platform for marketing and advertising is an intigral pa
 
 ### Summary
 
-This is a nodejs application with express module. There are three parts, web pages as front-end, nodejs application server as back-end and Twitter as 3rd party information provider using Restful api.
+This is a NodeJS application with ExpressJS module. There are three parts, web pages as front-end, ExpressJS application server as a back-end and Twitter as 3rd party information provider using Restful API.
 
 ### Dev. environment
 
@@ -53,7 +53,7 @@ This is a nodejs application with express module. There are three parts, web pag
 
 ### References
 	
-- Twitter API Documention: https://developer.twitter.com/en/docs
+- Twitter API Documentation: https://developer.twitter.com/en/docs
 - General Usage: https://developer.twitter.com/en/docs/platform-overview
 - Access limits: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#Access
 - Authentication methods: https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api
@@ -70,7 +70,7 @@ This is a nodejs application with express module. There are three parts, web pag
 ## 3. Comments
  
 
-- Twitter API Keys are registered in Heroku setting.
+- Twitter API Keys are registered in the Heroku settings.
  
  
  
