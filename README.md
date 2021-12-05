@@ -1,6 +1,8 @@
-# DSGN 270 Assignment 3 - Social Integration Proof-of-Concept
+# DSGN 270 Assignment 3 - Social Integration
 
 Author: Byung Uk An
+
+---
 
 ## 1. General Information
 
@@ -36,8 +38,11 @@ Using Social Networking Platform for marketing and advertising is an intigral pa
 
 * After you post new tweet, it would take less than a minute to see the content in the restaurant website.
 
+---
 
 ## 2. Dev. Information
+
+### Summary
 
 This is a nodejs application with express module. There are three parts, web pages as front-end, nodejs application server as back-end and Twitter as 3rd party information provider using Restful api.
 
@@ -60,6 +65,7 @@ This is a nodejs application with express module. There are three parts, web pag
 
 - Free Burger images from https://pixels.com/
 
+---
 
 ## 3. Comments
  
