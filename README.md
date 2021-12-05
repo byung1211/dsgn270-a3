@@ -2,34 +2,27 @@
 
 Author: Byung Uk An
 
-
 ## 1. General Information
-
 
 ### Summary
 
 Using Social Networking Platform for marketing and advertising is an intigral part of mordern business strategies. From small business owners to enterprise companies, they use various SNS services, such as Youtube and Twitter. It is because to get closer to their customers and to give them trust and good feelings to their brands, services and products. However, small business owners are having difficulties to get their website connected to SNS services because they don't have any expertise about that. To solve this problem, this development would be the solution to small business owners. Absolutely, showing Twitter contents on small business website is a way that give customers new information and interact with them through SNS platform.
 
-
 ### Business 
 	BurgerBurger restaurant
-	
 	
 ### Requirement
 	BurgerBurger restaurant has a Twitter account to advertise the place and its menu through social networking community. The owner want to display the tweets of the restaurant for the visitors of website to give them easy access to the restaurant's contents on Twitter.
 
-
 ### User Story
 
 	As a restaurant owner, I'd like to display my tweets about my BurgerBurger restaurant that I have posted on Twitter to give my website visitors easy access to the marketing contents in my Twitter account.
-
 
 ### SNS Information (Twitter)
 
 - Twitter Account URL: https://twitter.com/TheSun91512497
 - Test account: longlive1211@gmail.com
 - Test account pwd: !@#Byung1211
-	  
 
 ### Task Flow
 
@@ -42,6 +35,7 @@ Using Social Networking Platform for marketing and advertising is an intigral pa
 7. Then, go to the restaurant website and check out the new content displayed
 
 * After you post new tweet, it would take less than a minute to see the content in the restaurant website.
+
 
 ## 2. Dev. Information
 
@@ -67,7 +61,7 @@ This is a nodejs application with express module. There are three parts, web pag
 - Free Burger images from https://pixels.com/
 
 
-## Comments
+## 3. Comments
  
 
 - Twitter API Keys are registered in Heroku setting.
