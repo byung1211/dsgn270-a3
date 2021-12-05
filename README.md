@@ -49,8 +49,8 @@ This is a nodejs application with express module. There are three parts, web pag
 
 ### Dev. environment
 
-	- Github repo: [test](https://github.com/byung1211/dsgn270-a3)
-	- Heroku Golive URL: https://dsgn270-a3.herokuapp.com/
+Github repo: https://github.com/byung1211/dsgn270-a3
+Heroku Golive URL: https://dsgn270-a3.herokuapp.com/
 
 ### References
 	
