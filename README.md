@@ -26,22 +26,22 @@ Using Social Networking Platform for marketing and advertising is an intigral pa
 
 ### SNS Information (Twitter)
 
-	- Twitter Account URL: https://twitter.com/TheSun91512497
-	- Test account: longlive1211@gmail.com
-	- Test account pwd: !@#Byung1211
+- Twitter Account URL: https://twitter.com/TheSun91512497
+- Test account: longlive1211@gmail.com
+- Test account pwd: !@#Byung1211
 	  
 
 ### Task Flow
 
-	1. Go to the restaurant website (https://dsgn270-a3.herokuapp.com)
-	2. Check out the Twitter contents section
-	3. Then, go to Twitter website and the restaurant account
-	4. Log in with Twitter test account information above
-	5. Press 'Tweet' button, and post new status and image.
-	6. See the new tweet posted in the timeline of the restaurant account
-	7. Then, go to the restaurant website and check out the new content displayed
+1. Go to the restaurant website (https://dsgn270-a3.herokuapp.com)
+2. Check out the Twitter contents section
+3. Then, go to Twitter website and the restaurant account
+4. Log in with Twitter test account information above
+5. Press 'Tweet' button, and post new status and image.
+6. See the new tweet posted in the timeline of the restaurant account
+7. Then, go to the restaurant website and check out the new content displayed
 
-	* After you post new tweet, it would take less than a minute to see the content in the restaurant website.
+* After you post new tweet, it would take less than a minute to see the content in the restaurant website.
 
 ## 2. Dev. Information
 
@@ -49,22 +49,22 @@ This is a nodejs application with express module. There are three parts, web pag
 
 ### Dev. environment
 
-Github repo: https://github.com/byung1211/dsgn270-a3
-Heroku Golive URL: https://dsgn270-a3.herokuapp.com/
+- Github repo: https://github.com/byung1211/dsgn270-a3
+- Heroku Golive URL: https://dsgn270-a3.herokuapp.com/
 
 ### References
 	
-	- Twitter API Documention: https://developer.twitter.com/en/docs
-	- General Usage: https://developer.twitter.com/en/docs/platform-overview
-	- Access limits: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#Access
-	- Authentication methods: https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api
-	- Endpoint Reference: https://developer.twitter.com/en/docs/twitter-api
- 	- Tutorials: https://developer.twitter.com/en/docs/twitter-api/tutorials 
-	- Sample code: https://github.com/twitterdev/Twitter-API-v2-sample-code
+- Twitter API Documention: https://developer.twitter.com/en/docs
+- General Usage: https://developer.twitter.com/en/docs/platform-overview
+- Access limits: https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api#Access
+- Authentication methods: https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api
+- Endpoint Reference: https://developer.twitter.com/en/docs/twitter-api
+- Tutorials: https://developer.twitter.com/en/docs/twitter-api/tutorials 
+- Sample code: https://github.com/twitterdev/Twitter-API-v2-sample-code
 
 ### Attributions
 
-	Free Burger images from https://pixels.com/
+- Free Burger images from https://pixels.com/
 
 
 ## Comments
