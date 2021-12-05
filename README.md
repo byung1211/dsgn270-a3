@@ -8,7 +8,7 @@ Author: Byung Uk An
 
 ### Summary
 
-Using Social Networking Platform for marketing and advertising is an integral part of modern business strategies. From small business owners to enterprise companies, they use various SNS services, such as Youtube and Twitter. It is because to get closer to their customers and to give them trust and good feelings to their brands, services and products. However, small business owners are having difficulties getting their website connected to SNS services because they don't have any expertise about that. To solve this problem, this development would be the solution for small business owners. Absolutely, showing Twitter content on the small business websites is a way that gives customers new information and interacts with them through the SNS platforms
+Using Social Networking Platform for marketing and advertising is an integral part of modern business strategies. From small business owners to enterprise companies, they use various SNS services, such as Youtube and Twitter. It is because to get closer to their customers and to give them trust and good feelings to their brands, services and products. However, small business owners are having difficulties getting their websites connected to SNS services because they don't have any expertise about that. To solve this problem, this development would be the solution for small business owners. Absolutely, showing Twitter content on the small business websites is a way that gives customers new information and interacts with them through the SNS platforms
 
 ### Business 
 	BurgerBurger restaurant
