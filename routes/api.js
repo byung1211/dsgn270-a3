@@ -10,10 +10,10 @@ const router = express.Router();
 const accountId = '1466599339816468485';
 const {TwitterApi} = require('twitter-api-v2');
 const client = new TwitterApi({
-  appKey: 'V4b1DSVQaTS5W6lTHuZv8yu5P',
-  appSecret: 'yrl14jGVwdwoI3vOKZRzfhTZkHMGpcmMY1xdmt7WwDeZGwqZ8p',
-  accessToken: '1466599339816468485-FdXJ1YhbC2cP3GVmAs0KHXFgxFFAcU',
-  accessSecret: 'e4UZR0RcmGZpBJsKov6TiWOYJMpFGdCAvGwaEOBflLWAs',
+  appKey: process.env.APP_KEY,
+  appSecret: process.env.APP_SECRET,
+  accessToken: process.env.ACCESS_TOKEN,
+  accessSecret: process.env.ACCESS_SECRET,
 });
 
 router.get('/our-tweets', async (req, res) => {
