@@ -32,6 +32,16 @@ longlive1211
 2.	Node requests data from the API on the backend (secure).
 3.	Node sends the response data back to the client.
 
+5
+#User Story for your target client. It should follow the format covered in the first half of this course:
+
+- As a bar owner, I'd like my #daily-special Instagram updates to show up on my website because some of my regulars don't use social media.
+
+5
+#100-150 word summary of the market and problem that your social media integration solves
+-	What's the target market for this integration? Who would pay to have this installed on their website?
+-	What problem/pain does the integration solve?
+-	How does the choice of social tool contribute to the solution?
 
 #--------------------------
 
@@ -50,6 +60,8 @@ o	As a bar owner, I'd like my #daily-special Instagram updates to show up on my 
 o	What's the target market for this integration? Who would pay to have this installed on their website?
 o	What problem/pain does the integration solve?
 o	How does the choice of social tool contribute to the solution?
+
+
 2. Test account with sample content - 10 points
 Choose a social media tool that solves your market problem and User Story.
 •	Create a new account; do not use your actual account. You may use one of the following for an email address:
@@ -60,14 +72,18 @@ o	Your primary email with plus addressing.
 o	Content does not have to be original and can be based on open source content.
 o	Content must support the User Story (i.e. a "daily special" post should be an image of food, not a sunset).
 o	Talk to your instructor if three posts is not appropriate for the social tool you have chosen. For example, you're not expected to edit three separate videos for a YouTube integration.
+
+
 3. Operational integration with Task Flow - 10 points
 Create a public web page that displays social content in a way that supports your User Story.
+
 To be included in the project README. Define instructions as a Task Flow for the potential client to test the integration. For example:
 1.	Go to web page and take note of the current content.
 o	content can be displayed using an embed strategy offered by the social tool.
 2.	Log into social tool (include creds in brightspace comment).
 3.	Make a change or add a new post in social tool admin.
 4.	Refresh output page to confirm content has changed.
+
 Further notes:
 •	Attempts should be made to extend the functionality beyond any examples covered in class. In other words, don't just copy what your instructor did.
 •	Points given for unique use of the tool that goes beyond simply displaying content. For example:
@@ -78,6 +94,7 @@ o	Displaying a list with pagination.
 •	One of the three non-lorem posts may be used as sample content for the client to use to create a new post.
 •	Include relevant supporting links from the user documentation of the social tool you've chosen (i.e. "How to create an Instagram Post" from the IG website).
 •	Your instructor will follow these instructions to mark this assignment so be clear and concise.
+
 4. Custom Branding using an API endpoint - 10 points
 •	5 points: Output content from a Developer API to show that content can be displayed with a custom design and brand colours.
 •	5 points: In the project README, include relevant links from the Developer API Documentation:
@@ -86,6 +103,7 @@ o	Rate limits
 o	Authentication methods
 o	Creating a token
 o	Endpoint Reference
+
 5. Secure API token/key - 10 points
 •	Points given for not displaying API key or token in public source code.
 •	You may use a method of your choice to do this, such as:
