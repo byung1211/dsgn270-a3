@@ -7,7 +7,7 @@ const express = require('express');
 const router = express.Router();
 
 // Twitter configuration
-const accountId = '1466599339816468485';
+const accountId = process.env.ACCOUNt_ID;
 const {TwitterApi} = require('twitter-api-v2');
 const client = new TwitterApi({
   appKey: process.env.APP_KEY,
